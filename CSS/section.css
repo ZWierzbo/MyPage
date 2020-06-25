@@ -1,0 +1,19 @@
+.section {
+    padding: 20px 0;
+}
+
+.section--centered {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 10px;
+}
+
+.section__header {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+.section__image {
+    border-radius: 40px;
+}

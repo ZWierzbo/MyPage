@@ -14,7 +14,7 @@ button.addEventListener("click", () => {
 
 //Usuniecie zdjecia
 let button1 = document.querySelector(".przycisk");
-let zdjecie = document.querySelector(".zdjecie");
+let zdjecie = document.querySelector(".js-picture");
 
 button1.addEventListener("click", () => {
     if (button1.innerText === "Ukryj zdjęcie") {
