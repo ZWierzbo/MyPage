@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja pierwsza strona</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link href="CSS/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+  <div class="container dark">
+
+    <nav>
+      <ul class="list">
+        <li><a class="link" href="#header">Strona główna</a></li>
+        <li><a class="link" href="#o-mnie">O mnie</a></li>
+        <li><a class="link" href="#zainteresowania">Zainteresowania</a></li>
+        <li><a class="link" href="#tabelka">Najpopularniejsze miasta świata</a></li>
+        <li><a class="link" href="#interakcje">Przykładowa interakcja</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <header id="header" class="section header">
+        <h1 class="h1">Witajcie na mojej pierwszej stronie!</h1>
+        <img class="zdjecie" width="135" height="160" src="https://i.postimg.cc/TYTSyNQd/ja.jpg" alt="Zuzanna Wierzbowska">
+        
+
+      </header>
+
+      <section class="section" id="o-mnie">
+        <h2>O mnie</h2>
+        <p>Cześć, mam na imię Zuza i mam 25 lat.
+          Pracuję w sektorze finansów, ale chciałabym stać się frontend developerem.
+          Programowanie
+          zainteresowało mnie juz podczas studiów i od tamtego czasu wydaję mi się, że to bardzo
+          <em>kreatywne</em>,
+          <em>rozwijające</em> i <em>satysfakcjonujace</em> zajęcie.
+        </p>
+
+      </section>
+
+      <section class="section" id="zainteresowania">
+        <h2>Pasje i czas wolny</h2>
+        <p><strong>Od najmłodszych lat moimi pasjami sa taniec i podróże.</strong> Kiedy czas pozwala, uwielbiam
+          też
+          jeździć
+          do schronisk i
+          pomagać zwierzakom. </p>
+      </section>
+
+      <section class="section" id="tabelka">
+        <h2>Najpopularniejsze miasta świata</h2>
+        <div class="tabela">
+          <table class="table">
+            <caption class="caption">Najczesciej odwiedzane miasta w 2019 roku</caption>
+            <thead>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader coloured" scope="col">Miasto</th>
+                <th class="tableCell tableHeader coloured" scope="col">Panstwo</th>
+                <th class="tableCell tableHeader coloured" scope="col">Liczba turystow w mln</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Bangkok</th>
+                <td class="tableCell">Tajlandia</td>
+                <td class="tableCell">22,78</td>
+              </tr>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Paryż</th>
+                <td class="tableCell">Francja</td>
+                <td class="tableCell">19,1</td>
+              </tr>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Londyn</th>
+                <td class="tableCell">Wielka Brytania</td>
+                <td class="tableCell">19,09</td>
+              </tr>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Dubaj</th>
+                <td class="tableCell">Zjednoczone Emiraty Arabskie</td>
+                <td class="tableCell">15,93</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Singapur</th>
+                <td class="tableCell">Singapur</td>
+                <td class="tableCell">14,67</td>
+              </tr>
+            </tfoot>
+
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="interakcje">
+        <h2>Interakcje</h2>
+
+        <button class="przycisk">Ukryj zdjęcie</button>
+        <button class="button">Włącz ciemny motyw</button>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      Wszelkie prawa zastrzezone.
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
