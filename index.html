@@ -11,6 +11,7 @@
   <link href="CSS/section.css" rel="stylesheet">
   <link href="CSS/tableContainer.css" rel="stylesheet">
   <link href="CSS/table.css" rel="stylesheet">
+  <link href="CSS/footer.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -64,42 +65,42 @@
         <h2>Najpopularniejsze miasta świata</h2>
         <div class="tableContainer">
           <table class="table">
-            <caption class="caption">Najczesciej odwiedzane miasta w 2019 roku</caption>
+            <caption class="table__caption">Najczesciej odwiedzane miasta w 2019 roku</caption>
             <thead>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader coloured" scope="col">Miasto</th>
-                <th class="tableCell tableHeader coloured" scope="col">Panstwo</th>
-                <th class="tableCell tableHeader coloured" scope="col">Liczba turystow w mln</th>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">Miasto</th>
+                <th class="table__cell table__cell--header" scope="col">Panstwo</th>
+                <th class="table__cell table__cell--header" scope="col">Liczba turystow w mln</th>
 
               </tr>
             </thead>
             <tbody>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Bangkok</th>
-                <td class="tableCell">Tajlandia</td>
-                <td class="tableCell">22,78</td>
+              <tr class="table__row">
+                <td class="table__cell">Bangkok</th>
+                <td class="table__cell">Tajlandia</td>
+                <td class="table__cell">22,78</td>
               </tr>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Paryż</th>
-                <td class="tableCell">Francja</td>
-                <td class="tableCell">19,1</td>
+              <tr class="table__row">
+                <td class="table__cell">Paryż</th>
+                <td class="table__cell">Francja</td>
+                <td class="table__cell">19,1</td>
               </tr>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Londyn</th>
-                <td class="tableCell">Wielka Brytania</td>
-                <td class="tableCell">19,09</td>
+              <tr class="table__row">
+                <td class="table__cell">Londyn</th>
+                <td class="table__cell">Wielka Brytania</td>
+                <td class="table__cell">19,09</td>
               </tr>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Dubaj</th>
-                <td class="tableCell">Zjednoczone Emiraty Arabskie</td>
-                <td class="tableCell">15,93</td>
+              <tr class="table__row">
+                <td class="table__cell">Dubaj</th>
+                <td class="table__cell">Zjednoczone Emiraty Arabskie</td>
+                <td class="table__cell">15,93</td>
               </tr>
             </tbody>
             <tfoot>
-              <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Singapur</th>
-                <td class="tableCell">Singapur</td>
-                <td class="tableCell">14,67</td>
+              <tr class="table__row">
+                <td class="table__cell">Singapur</th>
+                <td class="table__cell">Singapur</td>
+                <td class="table__cell">14,67</td>
               </tr>
             </tfoot>
 
@@ -107,20 +108,21 @@
         </div>
       </section>
 
-      <section class="section" id="interakcje">
+      <section id="interakcje" class="section">
         <h2>Interakcje</h2>
 
-        <button class="przycisk">Ukryj zdjęcie</button>
-        <button class="button">Włącz ciemny motyw</button>
+        <button class="section__button js-removeImageButton">Ukryj zdjęcie</button>
+        <button class="section__button js-changeBackgroundButton">Włącz ciemny motyw</button>
       </section>
 
     </main>
-
+  </div>
+  
     <footer class="footer">
       Wszelkie prawa zastrzezone.
     </footer>
 
-  </div>
+  
 
 </body>
 

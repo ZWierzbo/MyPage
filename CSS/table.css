@@ -1,48 +1,40 @@
-
 .table {
-    font-family: "Poppins", sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    background-color: #fafaff;
-    
-  }
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fafaff;
+}
+
+.table__caption {
+  caption-side: bottom;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.table__cell {
+  border: 1px solid #3a1c38;
+  padding: 5px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table__cell--header {
+  color: #3a1c38;
   
- 
+  background-color: #bb88dd;
+  font-weight: normal;
+}
+
+.table__row {
   
-  .caption {
-    caption-side: bottom;
-    text-align: right;
-    margin-top: 5px;
-  }
-  
-  .tableCell {
-    border: 1px solid #3a1c38;
-    padding: 5px 20px;
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  .tableHeader {
-    color: #3a1c38;
-    font-weight: normal;
-  }
-  
-  .tableRow {
-    background-color: #f8f9fa;
-  }
-  
-  .tableRow:nth-child(even) {
-    background: #C4E0F9;
-  }
-  
-  .tableRow:hover {
-    background-color: #ced4da; 
-  }
-  
-  .coloured {
-    background-color: #67AAF9;
-  }
-  
-  .leftSide {
-    text-align: left;
-  }
+  background-color: #f8f9fa;
+}
+
+.table__row:nth-child(even) {
+  background: #ced4da;
+}
+
+.table__row:hover {
+  background-color: #b7b1bc;
+}
+
