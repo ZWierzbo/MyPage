@@ -1,6 +1,6 @@
 # Zuzanna Wierzbowska - my page
 
-<img src="images/share.png" alt="main picture" width="200"/>
+<img src="images/share.png" alt="main picture" width="350"/>
 
 ## Demo
 
