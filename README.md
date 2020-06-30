@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://zwierzbo.github.io/homepage/
+https://zwierzbo.github.io/MyPage/
 
 ## Content Description
 
